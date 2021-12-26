@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73514AAC2778327C005C5D41 /* ContentImportOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73514AAB2778327C005C5D41 /* ContentImportOperation.swift */; };
+		73514AAE27783722005C5D41 /* AsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73514AAD27783722005C5D41 /* AsyncOperation.swift */; };
 		739273D02774C5B400EEBADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739273CF2774C5B400EEBADB /* AppDelegate.swift */; };
 		739273D22774C5B400EEBADB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739273D12774C5B400EEBADB /* SceneDelegate.swift */; };
 		739273D42774C5B400EEBADB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739273D32774C5B400EEBADB /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73514AAB2778327C005C5D41 /* ContentImportOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentImportOperation.swift; sourceTree = "<group>"; };
+		73514AAD27783722005C5D41 /* AsyncOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncOperation.swift; sourceTree = "<group>"; };
 		739273CC2774C5B400EEBADB /* MultithreadingBootCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultithreadingBootCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		739273CF2774C5B400EEBADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		739273D12774C5B400EEBADB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				739273CF2774C5B400EEBADB /* AppDelegate.swift */,
 				739273D12774C5B400EEBADB /* SceneDelegate.swift */,
 				739273D32774C5B400EEBADB /* ViewController.swift */,
+				73514AAB2778327C005C5D41 /* ContentImportOperation.swift */,
+				73514AAD27783722005C5D41 /* AsyncOperation.swift */,
 				739273D52774C5B400EEBADB /* Main.storyboard */,
 				739273DA2774C5B400EEBADB /* LaunchScreen.storyboard */,
 				739273D82774C5B400EEBADB /* Assets.xcassets */,
@@ -140,6 +146,8 @@
 			files = (
 				739273D42774C5B400EEBADB /* ViewController.swift in Sources */,
 				739273D02774C5B400EEBADB /* AppDelegate.swift in Sources */,
+				73514AAC2778327C005C5D41 /* ContentImportOperation.swift in Sources */,
+				73514AAE27783722005C5D41 /* AsyncOperation.swift in Sources */,
 				739273D22774C5B400EEBADB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
