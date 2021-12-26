@@ -7,13 +7,26 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
+	
+	private let queue = OperationQueue()
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view.
+		orderOfExecution()
 	}
 
 
+	func orderOfExecution() {
+		
+		let backgroundOperation = BlockOperation {
+			print("Background Operation")
+		}
+		
+		let userTriggeredOperation = BlockOperation {
+			print("User Triggered Operation")
+		}
+		
+		queue.addOperations([backgroundOperation, userTriggeredOperation], waitUntilFinished: true)
+	}
 }
-

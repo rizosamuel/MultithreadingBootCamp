@@ -60,8 +60,8 @@
 				739273D12774C5B400EEBADB /* SceneDelegate.swift */,
 				739273D32774C5B400EEBADB /* ViewController.swift */,
 				739273D52774C5B400EEBADB /* Main.storyboard */,
-				739273D82774C5B400EEBADB /* Assets.xcassets */,
 				739273DA2774C5B400EEBADB /* LaunchScreen.storyboard */,
+				739273D82774C5B400EEBADB /* Assets.xcassets */,
 				739273DD2774C5B400EEBADB /* Info.plist */,
 			);
 			path = MultithreadingBootCamp;
